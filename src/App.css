@@ -1,0 +1,419 @@
+
+
+* {
+  margin: 0;
+  padding: 0.5rem;
+  background-color: rgb(47, 47, 47);
+  box-sizing: border-box;
+  font-family: lato;
+  
+  
+}
+
+
+
+
+.title {
+
+ display: flex;
+ justify-content: space-between;
+ padding: 1rem;
+ color: whitesmoke;
+ align-items: center;
+ margin-bottom: 20rem;
+ font-size: 20px;
+}
+
+
+.profall {
+ 
+  max-width: 100%;
+  height: 80vh;
+  display: flex;
+  font-size: 25px;
+  color: whitesmoke;
+  line-height: 60px;
+  
+  align-items: center;
+  margin-bottom: 25rem;
+  
+
+
+}
+
+
+  
+  
+
+
+.img {
+  display: flex;
+  
+  width: 35%;
+  height: 90vh;
+  border-radius: 15rem;
+ 
+  
+  
+
+}
+  
+  .align
+  {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    
+      
+     
+    
+  }
+  
+  .hello
+  {
+    font-size: 100px; 
+    margin-bottom: 2rem;
+  }
+
+  .divp {
+    
+    text-align: justify
+  
+
+
+
+  }
+
+  .allskill {
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 20rem;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color:whitesmoke;
+  }
+  
+
+
+ .gridskill {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 2rem;
+  padding: 2rem;
+  
+
+ }
+
+
+ 
+  
+  
+
+ .cardskill {
+ 
+ 
+display: flex;
+justify-content: center;
+
+ 
+
+
+ 
+  
+
+  
+
+  width: 40%;
+  height: 35vh;
+  color: whitesmoke ;
+  
+  
+
+    
+  
+ }
+
+.habilities-icons {
+
+font-size: 6rem;
+color: rgb(84, 84, 84);
+display: flex;
+;
+
+
+
+
+
+
+
+}
+
+.title-text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: whitesmoke;
+  margin-bottom: 3rem
+  
+  
+  
+ 
+}
+ 
+
+.project-container {
+
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  margin-bottom: 30rem;
+ 
+  
+  
+}
+
+
+.project {
+
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 5rem;
+  
+  
+  
+  
+  
+  
+
+}
+
+.allprojects {
+  width: 50%;
+  height: 40vh;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  
+  
+ 
+}
+  .allprojects1 {
+     
+  width: 50%;
+  height: 60vh;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  gap: 3rem
+ 
+  
+ 
+     
+
+  }
+
+  .allprojects2 {
+
+    width: 50%;
+    height: 50vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+      
+  }
+  
+  
+
+  
+
+
+.all-title {
+  color: whitesmoke;
+  font-size: 20px;
+  display: flex;
+  
+ 
+ 
+
+  
+}
+
+.links-container {
+
+ width: 100%;
+ height: 80vh;
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ 
+
+}
+
+.all-links {
+width: 100%;
+height: 80vh;  
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 3rem;
+gap: 2rem;
+margin-top: 15rem;
+color: whitesmoke;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.links {
+
+  
+  width: 30%;
+  height: 25vh;
+  font-size: 20px;
+  
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+ 
+  
+
+ 
+  
+
+
+ 
+ 
+}
+
+
+
+
+
+
+ .social-icons {
+
+  font-size: 75px;
+  
+  
+ 
+  
+ }
+
+
+  
+.social-btn {
+  color: rgb(84, 84, 84);
+}
+  
+  
+
+
+.fills {
+  font-size: 75px;
+  color: rgb(84, 84, 84);
+}
+  
+  
+  
+
+
+
+.text-icon {
+
+  padding: 2rem;
+  font-size: 25px;
+  display: flex;
+  
+  
+  
+  
+  }
+
+
+
+.icons {
+  display: flex;
+    align-items: center;
+    
+}
+
+.background {
+
+ width: 50%;
+}
+
+.poke {
+
+  width: 40%;
+  
+}
+.all-titlegit {
+
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: 1000;
+  margin-bottom: 5rem;
+}
+
+a {
+	
+	color: inherit; 
+  color: rgb(84, 84, 84);
+  text-decoration: none;
+}
