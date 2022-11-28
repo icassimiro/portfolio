@@ -417,3 +417,68 @@ a {
   color: rgb(84, 84, 84);
   text-decoration: none;
 }
+
+@media screen and  (max-width:800px) {
+
+  .hello{
+    font-size: 80px;
+  }
+  .title{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .profall {
+    flex-direction: column;
+    font-size: 21px;
+
+  }
+  .align {
+    width: 100%;
+  }
+  .divp{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin-bottom: 5rem;
+    line-height: 45px;
+  }
+  .title-text{
+    font-size: 30px;
+    margin-top: 8rem;
+  }
+
+  .text-icon{
+    font-size: 17px;
+  }
+  .allprojects{
+    width: 100%;
+    height: 80%;
+  }
+  .all-title{
+    font-size: 17px;
+  }
+  .allprojects1{
+    width: 100%;
+    height: 80%;
+  }
+  .allprojects2{
+    width: 100%;
+    height: 80%;
+  }
+  .all-titlegit{
+    font-size: 18px;
+  }
+  .links{
+    width: 90%;
+    font-size: 17px;
+  }
+  .img{
+    width: 50%;
+    margin-top: 5rem;
+  }
+  .habilities-icons{
+    font-size: 80px;
+  }
+}
+  
