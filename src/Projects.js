@@ -1,6 +1,7 @@
 import Github from "./Github";
 import login from "./images/login.png";
 import poke from "./images/poke.png";
+import landing from "./images/landing.png";
 const Projects = () => {
   return (
     <section className="project-container">
@@ -8,22 +9,34 @@ const Projects = () => {
         <h1 className="title-text">PROJETOS</h1>
         <div className="allprojects">
           <a
-            href="https://github.com/icassimiro/Tela-de-login"
+            href="https://github.com/icassimiro/LoginPS"
             target="_blank"
             className="all-title"
           >
-            PROJETO TELA DE LOGIN PARA SITES E APLICATIVOS.
+            TELA DE LOGIN
           </a>
           <img className="background" src={login} />
         </div>
         <div className="allprojects1">
           <a
-            href="https://github.com/icassimiro/poke-search"
+            href="https://github.com/icassimiro/LandingPage"
             target="_blank"
             className="all-title"
           >
-            PROJETO POKEDEX UTILIZANDO POKEAPI.
+            LANDING PAGE
           </a>
+
+          <img className="landing" src={landing} alt="landingpage" />
+        </div>
+        <div className="allprojects3">
+          <a
+            href="https://github.com/icassimiro/pokedex"
+            target="_blank"
+            className="all-title"
+          >
+            POKÉDEX UTILIZANDO POKÉAPI
+          </a>
+
           <img className="poke" src={poke} alt="poke" />
         </div>
         <div className="allprojects2">

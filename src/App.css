@@ -1,201 +1,111 @@
-
-
 * {
   margin: 0;
   padding: 0.5rem;
   background-color: rgb(47, 47, 47);
   box-sizing: border-box;
   font-family: lato;
-  
-  
 }
-
-
-
 
 .title {
-
- display: flex;
- justify-content: space-between;
- padding: 1rem;
- color: whitesmoke;
- align-items: center;
- margin-bottom: 20rem;
- font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: whitesmoke;
+  align-items: center;
+  margin-bottom: 20rem;
+  font-size: 20px;
 }
 
-
 .profall {
- 
   max-width: 100%;
   height: 80vh;
   display: flex;
   font-size: 25px;
   color: whitesmoke;
   line-height: 60px;
-  
   align-items: center;
   margin-bottom: 25rem;
-  
-
-
 }
-
-
-  
-  
-
 
 .img {
   display: flex;
-  
   width: 35%;
   height: 90vh;
-  border-radius: 15rem;
- 
-  
-  
-
+  border-radius: 20rem;
 }
-  
-  .align
-  {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    
-      
-     
-    
-  }
-  
-  .hello
-  {
-    font-size: 100px; 
-    margin-bottom: 2rem;
-  }
 
-  .divp {
-    
-    text-align: justify
-  
+.align {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
 
+.hello {
+  font-size: 100px;
+  margin-bottom: 2rem;
+}
 
+.divp {
+  text-align: justify;
+}
 
-  }
+.allskill {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+}
 
-  .allskill {
-    width: 100%;
-    height: 80vh;
-    margin-bottom: 20rem;
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    color:whitesmoke;
-  }
-  
-
-
- .gridskill {
+.gridskill {
   width: 100%;
   height: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
   gap: 2rem;
   padding: 2rem;
-  
+}
 
- }
-
-
- 
-  
-  
-
- .cardskill {
- 
- 
-display: flex;
-justify-content: center;
-
- 
-
-
- 
-  
-
-  
-
+.cardskill {
+  display: flex;
+  justify-content: center;
   width: 40%;
   height: 35vh;
-  color: whitesmoke ;
-  
-  
-
-    
-  
- }
+  color: whitesmoke;
+}
 
 .habilities-icons {
-
-font-size: 6rem;
-color: rgb(84, 84, 84);
-display: flex;
-;
-
-
-
-
-
-
-
+  font-size: 6rem;
+  color: rgb(84, 84, 84);
+  display: flex;
 }
 
 .title-text {
   font-size: 3rem;
   font-weight: 700;
   color: whitesmoke;
-  margin-bottom: 3rem
-  
-  
-  
- 
+  margin-bottom: 3rem;
 }
- 
 
 .project-container {
-
   width: 100%;
   height: 80vh;
   display: flex;
   margin-bottom: 30rem;
- 
-  
-  
 }
 
-
 .project {
-
   width: 100%;
   height: 100vh;
-  
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   gap: 5rem;
-  
-  
-  
-  
-  
-  
-
 }
 
 .allprojects {
@@ -209,12 +119,8 @@ display: flex;
   padding: 3rem;
   gap: 2rem;
   margin-bottom: 3rem;
-  
-  
- 
 }
-  .allprojects1 {
-     
+.allprojects1 {
   width: 50%;
   height: 60vh;
   border: 1px solid rgb(255, 255, 255);
@@ -224,105 +130,60 @@ display: flex;
   align-items: center;
   padding: 3rem;
   margin-bottom: 3rem;
-  gap: 3rem
- 
-  
- 
-     
+  gap: 3rem;
+}
 
-  }
+.allprojects2 {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
 
-  .allprojects2 {
-
-    width: 50%;
-    height: 50vh;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-      
-  }
-  
-  
-
-  
-
-
+.allprojects3 {
+  width: 50%;
+  height: 60vh;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  gap: 3rem;
+}
 .all-title {
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
-  
- 
- 
-
-  
 }
 
 .links-container {
-
- width: 100%;
- height: 80vh;
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
-
-
-
- 
-
+  width: 100%;
+  height: 100vh;
+  padding-top: 40rem;
 }
 
 .all-links {
-width: 100%;
-height: 80vh;  
+  width: 100%;
+  height: 80vh;
 
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding: 3rem;
-gap: 2rem;
-margin-top: 15rem;
-color: whitesmoke;
-
-
-
-
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  gap: 2rem;
+  margin-top: 15rem;
+  color: whitesmoke;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 .links {
-
-  
   width: 30%;
   height: 25vh;
-  font-size: 20px;
-  
+  font-size: 21px;
   border: 1px solid rgb(255, 255, 255);
   display: flex;
   justify-content: center;
@@ -330,81 +191,44 @@ color: whitesmoke;
   align-items: center;
   gap: 1rem;
   margin: 1rem;
- 
-  
-
- 
-  
-
-
- 
- 
 }
 
-
-
-
-
-
- .social-icons {
-
+.social-icons {
   font-size: 75px;
-  
-  
- 
-  
- }
+}
 
-
-  
 .social-btn {
   color: rgb(84, 84, 84);
 }
-  
-  
-
 
 .fills {
   font-size: 75px;
   color: rgb(84, 84, 84);
 }
-  
-  
-  
-
-
 
 .text-icon {
-
   padding: 2rem;
   font-size: 25px;
   display: flex;
-  
-  
-  
-  
-  }
-
-
+}
 
 .icons {
   display: flex;
-    align-items: center;
-    
+  align-items: center;
 }
 
 .background {
+  width: 45%;
+}
 
- width: 50%;
+.landing {
+  width: 45%;
 }
 
 .poke {
-
-  width: 40%;
-  
+  width: 45%;
 }
 .all-titlegit {
-
   font-size: 30px;
   color: whitesmoke;
   font-weight: 1000;
@@ -412,73 +236,71 @@ color: whitesmoke;
 }
 
 a {
-	
-	color: inherit; 
+  color: inherit;
   color: rgb(84, 84, 84);
   text-decoration: none;
 }
 
-@media screen and  (max-width:800px) {
-
-  .hello{
+@media screen and (max-width: 800px) {
+  .hello {
     font-size: 80px;
   }
-  .title{
+  .title {
     flex-direction: column;
     gap: 2rem;
   }
-
   .profall {
     flex-direction: column;
     font-size: 21px;
-
   }
   .align {
     width: 100%;
   }
-  .divp{
+  .divp {
     display: flex;
     justify-content: center;
     max-width: 800px;
     margin-bottom: 5rem;
     line-height: 45px;
   }
-  .title-text{
+  .title-text {
     font-size: 30px;
     margin-top: 8rem;
   }
-
-  .text-icon{
+  .text-icon {
     font-size: 17px;
   }
-  .allprojects{
+  .allprojects {
     width: 100%;
     height: 80%;
   }
-  .all-title{
+  .allprojects3 {
+    width: 100%;
+    height: 80%;
+  }
+  .all-title {
     font-size: 17px;
   }
-  .allprojects1{
+  .allprojects1 {
     width: 100%;
     height: 80%;
   }
-  .allprojects2{
+  .allprojects2 {
     width: 100%;
     height: 80%;
   }
-  .all-titlegit{
+  .all-titlegit {
     font-size: 18px;
   }
-  .links{
+  .links {
     width: 90%;
     font-size: 17px;
   }
-  .img{
+  .img {
     width: 50%;
     margin-top: 5rem;
   }
-  .habilities-icons{
+  .habilities-icons {
     font-size: 80px;
   }
 }
-  

@@ -8,8 +8,8 @@ const Me = () => {
           <p className="ptext">
             Meu Nome é Iago, e sou Desenvolvedor Web Front-End. Iniciei meus
             estudos e aplicações em Junho de 2022. Estou em busca da primeira
-            oportunidade como desenvolvedor. Apreço para desenvolver um código
-            aprimorado bem como um visual agradável.{" "}
+            oportunidade como desenvolvedor. Estimo para desenvolver um código
+            otimizado bem como um visual proporcionado.{" "}
           </p>
         </div>
       </div>

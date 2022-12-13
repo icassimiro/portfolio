@@ -14,7 +14,7 @@ function App() {
       <Me />
       <Habilities />
       <Projects />
-      <Links  />
+      <Links />
     </div>
   );
 }
