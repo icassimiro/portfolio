@@ -3,7 +3,7 @@
   padding: 0.5rem;
   background-color: rgb(47, 47, 47);
   box-sizing: border-box;
-  font-family: lato;
+  font-family: sans-serif;
 }
 
 .title {
@@ -157,8 +157,9 @@
 }
 .all-title {
   color: whitesmoke;
-  font-size: 25px;
+  font-size: 22px;
   display: flex;
+  font-weight: 550;
 }
 
 .links-container {
@@ -176,7 +177,7 @@
   justify-content: center;
   padding: 3rem;
   gap: 2rem;
-  margin-top: 15rem;
+  margin-top: 45rem;
   color: whitesmoke;
 }
 
@@ -229,7 +230,7 @@
   width: 45%;
 }
 .all-titlegit {
-  font-size: 30px;
+  font-size: 25px;
   color: whitesmoke;
   font-weight: 1000;
   margin-bottom: 5rem;
