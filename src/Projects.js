@@ -46,7 +46,7 @@ const Projects = () => {
             target="_blank"
             className="all-title"
           >
-            ECOMMERCE UTILIZANDO API MERCADO LIVRE
+            E-COMMERCE UTILIZANDO API MERCADO LIVRE
           </a>
 
           <img className="poke" src={ML} alt="poke" />

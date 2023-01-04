@@ -6,7 +6,7 @@ const Me = () => {
         <div className="align">
           <p className="hello">Olá.</p>
           <p className="ptext">
-            Meu Nome é Iago, e sou Desenvolvedor Web Front-End. Iniciei meus
+            Meu nome é Iago, e sou Desenvolvedor Web Front-End. Iniciei meus
             estudos e aplicações em Junho de 2022. Estou em busca da primeira
             oportunidade como desenvolvedor. Estimo para desenvolver um código
             otimizado bem como um visual proporcionado.{" "}

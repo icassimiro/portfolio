@@ -1,9 +1,9 @@
 import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
 
 const habilitie = [
-  { id: "html", name: "HTML5", icon: <DiHtml5 className="habilities-icons" /> },
+  { id: "html", name: "HTML", icon: <DiHtml5 className="habilities-icons" /> },
 
-  { id: "css", name: "CSS3", icon: <DiCss3 className="habilities-icons" /> },
+  { id: "css", name: "CSS", icon: <DiCss3 className="habilities-icons" /> },
 
   {
     id: "js",
