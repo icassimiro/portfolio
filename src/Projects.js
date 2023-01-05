@@ -49,7 +49,7 @@ const Projects = () => {
             E-COMMERCE UTILIZANDO API MERCADO LIVRE
           </a>
 
-          <img className="poke" src={ML} alt="poke" />
+          <img className="poke" src={ML} alt="mercadolivre" />
         </div>
         <div className="allprojects2">
           <h4 className="all-titlegit">
